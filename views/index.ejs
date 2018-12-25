@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Advanced React: R Santosh Reddy</title>
+  </head>
+  <body>
+    <div id="root"><%- initialMarkUp -%></div>
+    <script>
+      /* eslint-disable */
+      /*ingnore the eslint errors here*/
+      window.initialState = <%- JSON.stringify(initialState) -%>
+    </script>
+    <!-- <script src="../public/bundle.js"></script> -->
+     <script src="../public/vendor.js?version=1"></script>
+    <script src="../public/app.js?version=1"></script>
+  </body>
+</html>

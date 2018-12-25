@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Articles renders correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <ArticleContainer
+        article={
+            Object {
+                "id": "a",
+              }
+        }
+    />
+    <ArticleContainer
+        article={
+            Object {
+                "id": "b",
+              }
+        }
+    />
+</div>,
+  "nodes": Array [
+    <div>
+      <ArticleContainer
+            article={
+                  Object {
+                        "id": "a",
+                      }
+            }
+      />
+      <ArticleContainer
+            article={
+                  Object {
+                        "id": "b",
+                      }
+            }
+      />
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <Articles
+      articles={
+            Object {
+                  "a": Object {
+                    "id": "a",
+                  },
+                  "b": Object {
+                    "id": "b",
+                  },
+                }
+      }
+/>,
+    "_forcedUpdate": false,
+    "_instance": Articles {
+      "context": Object {},
+      "props": Object {
+        "articles": Object {
+          "a": Object {
+            "id": "a",
+          },
+          "b": Object {
+            "id": "b",
+          },
+        },
+      },
+      "refs": Object {},
+      "state": null,
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <div>
+      <ArticleContainer
+            article={
+                  Object {
+                        "id": "a",
+                      }
+            }
+      />
+      <ArticleContainer
+            article={
+                  Object {
+                        "id": "b",
+                      }
+            }
+      />
+</div>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Articles
+    articles={
+        Object {
+            "a": Object {
+              "id": "a",
+            },
+            "b": Object {
+              "id": "b",
+            },
+          }
+    }
+/>,
+}
+`;
